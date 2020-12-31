@@ -13,7 +13,8 @@
 локальности кэш-памяти компьютера.
 
 ## Результаты тестирования
-<div style="text-align: center;"><img
+<div><img
+     style="text-align: center;"
      src="Efficiency%20of%20matrix%20transposition%20algorithms.png"
      alt="Результаты тестирования"
      width="90%"/></div>
