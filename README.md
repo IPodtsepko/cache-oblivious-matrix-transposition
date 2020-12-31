@@ -13,10 +13,10 @@
 локальности кэш-памяти компьютера.
 
 ## Результаты тестирования
-<div><img src="Efficiency%20of%20matrix%20transposition%20algorithms.png"
+<p style="text-align: center;"><img
+     src="Efficiency%20of%20matrix%20transposition%20algorithms.png"
      alt="Результаты тестирования"
-     width="90%"
-     align="middle"/></div>
+     width="90%"/></p>
 На графике видно, что при небольших размерах (не превышающих 2&middot;10<sup>3</sup>)
 разность во времени работы описанных алгоритмов пренебрежимо мала, при этом
 на бо&#x301;льших, чем 2.5&middot;10<sup>3</sup> она становится заметной.
