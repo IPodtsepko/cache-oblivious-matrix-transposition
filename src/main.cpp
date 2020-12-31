@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <chrono>
-#include <fstream>
-#include <string>
+#include <bits/stdc++.h>
 #include "matrix.h"
 
 /**
@@ -11,12 +7,11 @@
 
 using namespace std;
 
-#define TIME(action)\
-auto start = chrono::steady_clock::now();\
+#define TIME(action) \
+double start = clock();\
 action;\
-auto finish = chrono::steady_clock::now();\
-std::chrono::duration<double> time = finish - start;\
-return time.count();
+double finish = clock();\
+return (finish - start) / CLOCKS_PER_SEC;
 
 
 double getTimeStupidTransposition(matrix &A, matrix &stupidTransposed) {
